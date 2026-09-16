@@ -2,7 +2,7 @@ function outarray = cnn_pipeline(inarray, filterbanks, biasvectors)
 % cnn_pipeline applies the 18-layer neural net to a single image
 % inarray is a raw image
 
-    % execute cnn pipeline
+    % execute CNN pipeline
     imrgb1 = apply_imnormalize(inarray); % 1
     imrgb2 = apply_convolve(imrgb1, filterbanks{2}, biasvectors{2}); % 2
     imrgb3 = apply_relu(imrgb2); % 3

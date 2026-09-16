@@ -23,11 +23,14 @@ for i = 1:10000
 
     % update the confusion matrix
     confusion_matrix(trueclass(i), predicted) = confusion_matrix(trueclass(i), predicted) + 1;
-
 end
 
 % calculate accuracy
 accuracy = sum(diag(confusion_matrix)) / sum(sum(confusion_matrix));
 
+% display confusion matrix
+fprintf('Confusion Matrix:\n');
+disp(confusion_matrix);
+
 % print accuracy
-fprintf('Classification accuracy: %.4f\n', accuracy);
+fprintf('Classification Accuracy: %.4f\n', accuracy);
