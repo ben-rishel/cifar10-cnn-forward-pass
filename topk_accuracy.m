@@ -1,9 +1,6 @@
 % script for computing and plotting top-k classification accuracy
 % (extra credit: accuracy vs. k, for k = 1..10)
 
-% make functions in the 'src' directory callable
-addpath('src');
-
 % load test data and parameters
 load('Project1DataFiles/cifar10testdata.mat');
 load('Project1DataFiles/CNNparameters.mat');

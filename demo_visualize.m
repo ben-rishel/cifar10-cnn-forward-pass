@@ -1,7 +1,5 @@
 % demo script that visualizes intermediate and final results of the CNN
 
-% make functions in the 'src' directory callable
-addpath('src');
 
 % load parameters and a labeled test image
 load('Project1DataFiles/CNNparameters.mat');

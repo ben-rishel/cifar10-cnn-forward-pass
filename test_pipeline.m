@@ -1,8 +1,5 @@
 % script for testing CNN pipeline
 
-% make functions in the 'src' directory callable
-addpath('src');
-
 % load parameters and expected results
 load('Project1DataFiles/debuggingTest.mat');
 load('Project1DataFiles/CNNparameters.mat');

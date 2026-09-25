@@ -1,8 +1,5 @@
 % script for running the CNN on all 10,000 images
 
-% make functions in the 'src' directory callable
-addpath('src');
-
 % load test data and parameters
 load('Project1DataFiles/cifar10testdata.mat');
 load('Project1DataFiles/CNNparameters.mat');
